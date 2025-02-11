@@ -47,11 +47,44 @@
 
 //with parameters, with return
 //function to add two numbers
-int add(int a, int b){
-  return a+b;
-}
+// int add(int a, int b){
+//   return a+b;
+// }
+// void main(){
+//   //call the function and store the result in a variable
+//   int sum = add(5, 3);
+//   print ('The sum is $sum');
+// }
+
+
+// //Annonymous functions
+// void main(){
+//   var fruits = ['Apple','Banana','Cherry','Date'];
+//   //Using anonymous function with forEach to print each fruit
+//   fruits.forEach((fruit) {
+//     print(fruit);
+// });}
+
+// void main(){
+//   var items=['laptop','Tablet','Smartphone','Smartwatch'];
+
+//   items.forEach((item){
+//     print(item);
+//   });
+// }
+
+// void main(){
+// //Assign anonymous function to a variable printName
+// var printName = (){
+//   print('My name is Mirriam');
+// };
+// //Call the anonymous function
+// printName();
+// }
+//Arrow function
+
+void printName()=> print('My name is Mirriam');
+
 void main(){
-  //call the function and store the result in a variable
-  int sum = add(5, 3);
-  print ('The sum is $sum');
+  printName();
 }
